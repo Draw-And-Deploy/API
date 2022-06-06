@@ -3,11 +3,11 @@ from pydantic import BaseModel
 
 
 class User(BaseModel):
-    username: Optional[str] = "username"
+    username: str = "username"
 
 
 class Project(BaseModel):
-    username: Optional[str] = "username"
+    username: str = "username"
     project_name: Optional[str] = "project"
 
 
